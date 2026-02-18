@@ -155,6 +155,10 @@ PredictSizeBoundedRisk <- function(model, data, d_max = 10, regular_pred = NULL,
   cat("Prediction successful!\n")
   data.frame(age = data$entry, end = data$exit, surv = q, 
              risk_attend = overall, risk_noattend = no_overall,
+             dmax_int1 = dmax_int1, 
+             dmax_scr = dmax_scr, 
+             dmax_int2scr = dmax_int2scr, 
+             dmax_int2noscr = dmax_int2noscr, 
              bounded_attend = dmax_int1 + dmax_scr + dmax_int2scr, 
              bounded_noattend = dmax_int1 + dmax_int2noscr)
 }
