@@ -15,7 +15,8 @@
 
 `devtools::install_github("rickstra/BCNatHist/BCNatHist", build = TRUE)`  
 or  
-`install.packages("https://github.com/rickstra/BCNatHist/raw/main/BCNatHist_1.0.tar.gz", repos = NULL)`  
+`install.packages("https://github.com/rickstra/BCNatHist/raw/main/BCNatHist_1.0.tar.gz", repos = NULL)` 
+`install.packages("https://github.com/Orsizia/BCNatHist_rickard/raw/main/BCNatHist_1.0.tar.gz", repos = NULL)` 
 
 ### Dependencies
 
